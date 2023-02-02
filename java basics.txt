@@ -1,0 +1,721 @@
+1.hello world
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.print("Hello, World!");
+        System.out.print("Hello, World!\n");
+        System.out.println("Hello, World!");
+    }
+}
+2.
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.print("****\n");
+        System.out.print("***\n");
+        System.out.print("**\n");
+        System.out.println("*");
+    }
+}
+3.
+public class Javabasics {
+    public static void main(String[] args) {
+        int a = 15;
+        int b = 16;
+        String c = "hi"; 
+        System.out.println(a);
+        System.out.println(c);
+        
+        
+        a = b;
+        System.out.println(b);
+        System.out.println(a);
+    }
+}
+4.
+public class Javabasics {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        int sum = a+b;
+        System.out.println(sum);
+    }
+}
+5.
+public class Javabasics {
+    public static void main(String[] args) {
+        //code to add
+        /*
+        this is multiline
+        comment
+        */
+        int a = 10;
+        int b = 20;
+        int sum = a+b;
+        System.out.println(sum);
+    }
+}
+6.
+import java.util.*;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        System.out.println(sum);
+    }
+}
+
+7.
+import java.util.*;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        int product = a * b;
+        int difference = a - b;
+        System.out.println(sum);
+        System.out.println(product);
+        System.out.println(difference);
+    }
+}
+8.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float rad = sc.nextFloat();
+        float area = 3.142f * rad * rad;
+        //f is add so ot take it as float value not double value
+        System.out.println(area);
+    }
+}
+9.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float number = sc.nextInt();
+        System.out.println(number);
+        //double>long>float>int>short>byte
+        //type conversion small to big is done but noy big to small
+    }
+}
+10
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float a = 25.34f;
+        int b = (int) a;
+        System.out.println(b);
+        //type casing 
+    }
+}
+11.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char ch = 'a';
+        char ch2 = 'b';
+        int num = ch;
+        int num2 = ch2;
+        System.out.println(num);
+        System.out.println(num2);
+        //type casing 
+    }
+}
+12.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char a = 'a';
+        char b = 'b';
+        System.out.println((int)(b));
+         System.out.println((int)(a));
+        System.out.println(b-a);
+        //type promotion
+    }
+}
+13.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        byte b = 5;
+        byte a = (byte) (b * 2);
+        System.out.println(a);
+        //type promotion in expression
+    }
+}
+14.
+import java.util.*;
+class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        System.out.println((a+b+c)/3);
+        //hw2_1
+       //average of 3 numbers
+    }
+}
+15.
+import java.util.*;
+class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int side = sc.nextInt();
+        int area = side * side;
+        System.out.println(area);
+        //hw2_2
+    }
+}
+16.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+        int A = 10;
+        int B = 15;
+        System.out.println((A + B));
+        // operators + - * % /
+    }
+}
+17.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+        // int A = 10;
+        // int B = ++A;
+        // System.out.println(A);
+        // System.out.println(B);
+        
+        // int A = 10;
+        // int B = A++;
+        // System.out.println(A);
+        // System.out.println(B);
+        
+        // int A = 10;
+        // int B = --A;
+        // System.out.println(A);
+        // System.out.println(B);
+        
+        int A = 10;
+        int B = A--;
+        System.out.println(A);
+        System.out.println(B);
+        // operators inrement and decrement
+    }
+}
+18.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+        // int A = 10;
+        // int B = 5;
+        // System.out.println(A == B);
+        
+        // int A = 10;
+        // int B = 5;
+        // System.out.println(A != B);
+        // != not equal to
+        
+        // int A = 10;
+        // int B = 5;
+        // System.out.println(A > B);
+        
+        // int A = 10;
+        // int B = 5;
+        // System.out.println(A < B);
+        
+        // int A = 10;
+        // int B = 5;
+        // System.out.println(A <= B);
+        
+        int A = 10;
+        int B = 5;
+        System.out.println(A >= B);
+        
+        // relational operators 
+    }
+}
+19.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+        // System.out.println( (3<2) && (5>2) );
+        // System.out.println( (3>2) && (5>2) );
+           //logical and operations
+        
+        // System.out.println((3<2)||(5>2));
+        // System.out.println((3<2)||(5<2));
+           //logical or operator
+           
+        System.out.println(!(3<2));
+           //logical not
+        // logical operators 
+    }
+}
+20.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+        int A = 10;
+        int B = 5;
+        int C = 15;
+        int D = 20;
+        int E = 25;
+        // A = A + 10; (slow execution)
+        A += 10; //faster execution
+        B -= 10;
+        C *= 5;
+        D /= 5;
+        E %= 5;
+        System.out.println(A);    
+        System.out.println(B);
+        System.out.println(C);
+        System.out.println(D);
+        System.out.println(E);
+        // assignment operators 
+    }
+}
+21.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    int age = 16;
+    if(age >= 18){
+        System.out.println("adult");
+    }
+    if(age>13 && age<18){
+        System.out.println("teen age");
+    }
+    else{
+        System.out.println("not adult");
+    }
+    //if elsse condition
+    }
+}
+22.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    if(a > b){
+        System.out.println("a is greater");
+    }
+    else{
+        System.out.println("b is larger");
+    }
+    //if else condition
+    }
+}
+23.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+     int n = sc.nextInt();
+     if( n % 2 == 0){
+        System.out.println("the number is even");
+     }
+     else{
+         System.out.println("the number is odd");
+         // conditionla statements if else
+     }
+    }
+}
+24.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+     int age = sc.nextInt();
+     if(age>18){
+        System.out.println("adult");
+     }
+     else if (age >=13 && age <=18 ){
+        System.out.println("teen age");
+     }
+     else{
+         System.out.println("child");
+         // conditionla statements (else if)
+     }
+    }
+}
+25.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+     int income = sc.nextInt();
+     int tax;
+     if(income < 500000){
+        tax = 0;
+        System.out.println("your tax is:" + tax);
+     }
+     else if (income >= 500000 && income <=1000000 ){
+        tax = (int)(income*0.2);
+        System.out.println("your tax is:" + tax);
+     }
+     else{
+        tax = (int)(income*0.3);
+         System.out.println("your tax is:" + tax);
+         // conditionla statements (else if)
+         // tax calculator
+     }
+    }
+}
+26
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+     int a = sc.nextInt();
+     int b = sc.nextInt();
+     int c = sc.nextInt();
+     if((a>=b) && (a>=c)){
+        System.out.println("a");
+     }
+     else if (b>=c){
+        System.out.println("b");
+     }
+     else{
+        System.out.println("c");
+         // conditionla statements (else if)
+         // comparing 3 numbers
+         
+     }
+    }
+}
+27.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int num = sc.nextInt();
+    String type = ((num%2) == 0) ? "even" : "odd" ;
+    System.out.println(type);
+    // tiranary operator
+    }
+}
+28.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int marks = sc.nextInt();
+    String type = (marks >= 33) ? "pass" : "fail" ;
+    System.out.println(type);
+    // tiranary operator
+    //pass or fail
+    }
+}
+29.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter a");
+    int a = sc.nextInt();
+    System.out.println("enter b");
+    int b = sc.nextInt();
+    System.out.println("enter operator");
+    char operator = sc.next().charAt(0);
+    
+    switch(operator){
+        case '+' : System.out.println(a+b);
+                    break;
+        case '-' : System.out.println(a-b);
+                    break;
+        case '*' : System.out.println(a*b);
+                    break;
+        case '/' : System.out.println(a/b);
+                    break;
+        case '%' : System.out.println(a%b);
+                    break;
+        default : System.out.println("wrong operator");
+    }
+    }
+}
+30.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter the value:");
+    int n = sc.nextInt();
+    if (n<0){
+        System.out.println("negative number");
+    }
+    else{
+        System.out.println("positive number");
+    }
+    }
+}
+31.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter the value:");
+    double n = sc.nextDouble();
+    if (n>100){
+        System.out.println("feaver");
+    }
+    else{
+        System.out.println("no feaver");
+    }
+    }
+}
+32.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter the value:");
+     int a = sc.nextInt();
+    
+     switch(a){
+         case '1' : System.out.println("monday");
+                     break;
+         case '2' : System.out.println("tuesday");
+                     break;
+         case '3' : System.out.println("wed");
+                     break;
+         case '4' : System.out.println("thrs");
+                     break;
+         case '5' : System.out.println("fri");
+                     break;
+         case '6' : System.out.println("sat");
+                     break;
+         case '7' : System.out.println("sun");
+                     break;
+         default : System.out.println("wrong operator");
+    }
+    
+    }
+}
+33.
+import java.util.*;
+public class java {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter the value:");
+     int n = sc.nextInt();
+    if (n%4==0 && n%100==0 && n%400==0){
+        System.out.println("leap year");
+    }
+    else{
+        System.out.println("not leap year");
+    }
+    }
+}
+34.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the values");
+        int n = 0 ;
+        while(n < 5){
+        System.out.println("Hello, World!");
+        n++;
+        }
+    }
+}
+35.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the values");
+        int n = 1 ;
+        while(n <= 10){
+        System.out.print(n+" ");
+        n++;
+        }
+    }
+}
+36.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the values:");
+        int n = sc.nextInt();
+        int sum = 0;
+        
+        int i=1;
+        while(i <= n){
+           //sum = sum + i;
+           sum += i;
+           i++;
+        
+        System.out.println(sum);
+        }
+    }
+}
+37.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the values:");
+        int n = sc.nextInt();
+        // for(int i=1 ; i<=4 ; i++){
+        //     System.out.println("****");
+        // }
+        int line = 1;
+        while(line <= 4){
+            System.out.println("****");
+            line++;
+        }
+    }
+}
+38.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the values:");
+        int n = sc.nextInt();
+        while(n > 0){
+            int lastdigit = n % 10;
+            System.out.print(lastdigit);
+            // n = n/10;
+            n /= 10;
+        }
+        System.out.println();
+        // reverse of the number
+    }
+}
+39.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        for(int i=1 ; i<=5 ; i++){
+            if(i==3){
+                continue;
+            }
+          System.out.println(i);  
+        }
+        // continue (skipping the value)
+    }
+}
+40.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        do{
+            System.out.println("enter the value:");
+            int n = sc.nextInt();
+            
+            if(n%10==0){
+                continue;
+            }
+            System.out.println("no. was:" + n);
+        }while(true);
+    }
+}
+41.
+//prime or not
+import java.util.*;
+public class Java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value:");
+        int n =sc.nextInt();
+        
+        if(n==2){
+            System.out.println("n is prime");
+        }
+        else{
+            boolean isPrime = true;
+        for(int i=2; i<=Math.sqrt(n); i++ ){
+            if(n%i == 0){
+                isPrime = false;
+            }
+        }
+        if(isPrime==true){
+            System.out.println("n is prime");
+        }else{
+            System.out.println("n is not prime");
+        }
+        }
+    
+    }
+}
+42.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        for (int line=1; line<=4; line++){
+            for(int star=1; star<=line; star++){
+              System.out.println("*");  
+            }
+            System.out.println();
+        }
+    }
+}
+43.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for (int line=1; line<=n; line++){
+            for(int star=1; star<=(n-line+1); star++){
+              System.out.print("*");  
+            }
+            System.out.println();
+            //inverted star pattern
+        }
+    }
+}
+44.
+
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for (int line=1; line<=n; line++){
+            for(int number=1; number<=line; number++){
+              System.out.print(number);  
+            }
+            System.out.println();
+            // pyramid number pattern
+        }
+    }
+}
+45.
+import java.util.*;
+public class java_basics {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        char ch = 'A';
+        for (int line=1; line<=n; line++){
+            for(int chars=1; chars<=line; chars++){
+              System.out.print(ch);
+              ch++;
+            }
+            System.out.println();
+            // pyramid alphabets pattern
+        }
+    }
+}
+46.
+
